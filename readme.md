@@ -1,5 +1,7 @@
 Splits an image into multiple images. Useful for creating single images from a tileset.
 
+The implementation uses stb_image.h and stb_image_write.h from the excellent stb libraries. https://github.com/nothings/stb
+
 usage
 -----
 split_image.exe <inputfile_path> <outputfolder_path> <split_images_filename_prefix> <width> <height>
