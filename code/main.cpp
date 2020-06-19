@@ -53,7 +53,7 @@ main(int number_of_arguments, char **arguments)
 
     for (int x_tile = 0; x_tile < number_of_tiles_x; ++x_tile)
     {
-        for (int y_tile = 0; y_tile < number_of_tiles_x; ++y_tile)
+        for (int y_tile = 0; y_tile < number_of_tiles_y; ++y_tile)
         {
             unsigned char *output_data = (unsigned char *)calloc((size_t)(width * height * number_of_components), sizeof(unsigned char));
             for (int i = 0; i < width * height; ++i)
