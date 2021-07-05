@@ -50,6 +50,7 @@ main(int number_of_arguments, char **arguments)
         exit(-1);
     }
     int number_of_tiles_x = x / width;
+    int number_of_tiles_y = y / height;
 
     for (int x_tile = 0; x_tile < number_of_tiles_x; ++x_tile)
     {
